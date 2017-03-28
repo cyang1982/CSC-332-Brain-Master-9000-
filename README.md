@@ -2,16 +2,16 @@
 #
 
 # Sign-In page:
-#   - M#
-#   - Name
+   - M#
+   - Name
 #
 # Test Log
 #
 # Start Session
 #
 # Test
-#   - Concentration 
-#   - Reaction Time
-#   - Memory
+   - Concentration 
+   - Reaction Time
+   - Memory
 #
 # Analysis
