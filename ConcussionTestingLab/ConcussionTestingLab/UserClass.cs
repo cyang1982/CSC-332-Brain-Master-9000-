@@ -12,12 +12,17 @@ namespace ConcussionTestingLab
         {
             public string userID;
             public string userName;
-            public DateTime curDate;
-            public double testScore1;
-            public double testScore2;
-            public double testScore3;
         } // User
 
-        public List<User> userList = new List<User>();
+        public class TestScores
+        {
+            public DateTime curDate;
+            public double concentrationScore;
+            public double memoryScore;
+            public double reactionTimeScore;
+        } // TestScores
+
+        public static List<User> userList = new List<User>();
+        public static List<TestScores> testScoreList = new List<TestScores>();
     }
 }
