@@ -112,6 +112,22 @@ namespace ConcussionTestingLab
             userObj.userID = tbMNumber.Text;
             userObj.userName = tbName.Text;
             WriteFile(userObj.userID, userObj.userName);
+
+            if (valid == true)
+            {
+                //THIS event opens another form
+
+                // Hide "this" current form
+                this.Hide();
+
+                // Create a new object that will represent the next form.
+                frmUser frm = new frmUser();
+
+                // Displays the other form using its object instance
+                frm.Show();
+
+                frm = null;
+            } // endif
         } // btnSignUp_Click()
 
         private void btnSignIn_Click(object sender, EventArgs e)
@@ -121,6 +137,22 @@ namespace ConcussionTestingLab
             // login is successful and then the next form will load.
 
             ReadFile(tbMNumber.Text, tbName.Text);
+
+            if (valid == true)
+            {
+                //THIS event opens another form
+
+                // Hide "this" current form
+                this.Hide();
+
+                // Create a new object that will represent the next form.
+                frmUser frm = new frmUser();
+
+                // Displays the other form using its object instance
+                frm.Show();
+
+                frm = null;
+            } // endif
         }
     }
     
