@@ -32,6 +32,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.tbMNumber = new System.Windows.Forms.TextBox();
             this.tbName = new System.Windows.Forms.TextBox();
+            this.btnSignUp = new System.Windows.Forms.Button();
+            this.btnSignIn = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -56,21 +58,41 @@
             // 
             this.tbMNumber.Location = new System.Drawing.Point(93, 46);
             this.tbMNumber.Name = "tbMNumber";
-            this.tbMNumber.Size = new System.Drawing.Size(100, 22);
+            this.tbMNumber.Size = new System.Drawing.Size(126, 22);
             this.tbMNumber.TabIndex = 2;
             // 
             // tbName
             // 
             this.tbName.Location = new System.Drawing.Point(93, 100);
             this.tbName.Name = "tbName";
-            this.tbName.Size = new System.Drawing.Size(100, 22);
+            this.tbName.Size = new System.Drawing.Size(126, 22);
             this.tbName.TabIndex = 3;
+            // 
+            // btnSignUp
+            // 
+            this.btnSignUp.Location = new System.Drawing.Point(24, 179);
+            this.btnSignUp.Name = "btnSignUp";
+            this.btnSignUp.Size = new System.Drawing.Size(75, 28);
+            this.btnSignUp.TabIndex = 4;
+            this.btnSignUp.Text = "Sign Up";
+            this.btnSignUp.UseVisualStyleBackColor = true;
+            // 
+            // btnSignIn
+            // 
+            this.btnSignIn.Location = new System.Drawing.Point(144, 179);
+            this.btnSignIn.Name = "btnSignIn";
+            this.btnSignIn.Size = new System.Drawing.Size(75, 28);
+            this.btnSignIn.TabIndex = 5;
+            this.btnSignIn.Text = "Sign In";
+            this.btnSignIn.UseVisualStyleBackColor = true;
             // 
             // frmSignIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(549, 417);
+            this.Controls.Add(this.btnSignIn);
+            this.Controls.Add(this.btnSignUp);
             this.Controls.Add(this.tbName);
             this.Controls.Add(this.tbMNumber);
             this.Controls.Add(this.label2);
@@ -88,6 +110,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox tbMNumber;
         private System.Windows.Forms.TextBox tbName;
+        private System.Windows.Forms.Button btnSignUp;
+        private System.Windows.Forms.Button btnSignIn;
     }
 }
 
